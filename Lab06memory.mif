@@ -1,0 +1,13 @@
+--  MIPS Data Memory Initialization File
+depth=256;
+width=32;
+Content
+Begin
+-- default value for memory
+ [00..FF] : 00000000;
+-- initial values for test program
+ 00 : 00000041;		-- ASCII 'A'
+ 01 : 00000042;		-- ASCII 'B'
+ 02 : 00000043;		-- ASCII 'C'
+End;
+
